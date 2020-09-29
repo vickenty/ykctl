@@ -1,0 +1,14 @@
+[package]
+name = "ykctl"
+version = "0.1.0"
+authors = ["Vickenty Fesunov <vikentiy.fesunov@booking.com>"]
+edition = "2018"
+license = "BSD-2-clause"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pcsc="2.4"
+anyhow="1"
+log="0.4"
+std-logger={ version="0.3", default-features=false }
